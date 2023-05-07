@@ -1,0 +1,26 @@
+<center>
+    <h1>Task 12</h1>
+<hr>
+<hr>
+<script type="text/javascript">
+    var n = parseInt(prompt("Enter a Number: "));
+    var i = 1;
+    var c = 0;
+    while(i<=n){
+      if (n % i == 0){
+        c++;
+      }
+      i++;
+    }
+    if(c == 2){
+      console.log(n+ " is a prime number");
+      document.write("<span style = 'color:brown; font-size:25px; font-weight:bold'> "+n+" is a Prime Number. <br></span>");
+    }
+    else{
+      console.log(n+" is not a prime number");
+      document.write("<span style = 'color:brown; font-size:25px; font-weight:bold'> "+n+" is not a Prime Number. <br></span>");
+    }
+    </script>
+</center>
+<hr>
+<hr>
